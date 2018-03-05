@@ -3,8 +3,8 @@
 #########################
 terraform {
   backend "s3" {
-    bucket  = "my-tf-states-anton-demo"
-    key     = "terraform-delivery-pipeline-example2"
+    bucket  = "terrastate-bucket"
+    key     = "terraform-deployment-pipelines"
     region  = "eu-west-1"
     encrypt = true
   }
