@@ -6,7 +6,7 @@
     {
       "ami_name": "fullstackfest-demo-{{uuid | clean_ami_name}}",
       "ami_description": "FullStackFest demo AMI based on Amazon Linux",
-      "instance_type": "t2.large",
+      "instance_type": "t2.micro",
       "region": "{{user `aws_region`}}",
       "type": "amazon-ebs",
       "ssh_username": "ec2-user",
